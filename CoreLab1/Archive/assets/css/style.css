@@ -21,11 +21,11 @@ h4 {
 }
 
 img {
-    position: absolute;
-    right: 0px;
-    top: 110px;
-    z-index: -1;
-    margin-right: 50px;
+   position: relative;
+    /*background:yellow;*/
+    width:80%;
+    min-height:50vh;
+    float: right;
 }
 
 .wrap { 
@@ -37,7 +37,7 @@ header {
     position: relative;
     height: 100px;
     width: 100%;
-    background:blue;
+    /*background:blue;*/
 }
 
 sidebar {
@@ -78,14 +78,14 @@ iframe {
 
 .ibottom {
     width:2000vw;
-    background:green;
+    /*background:green;*/
     height:200px;
 }
 
 footer {
     width:100%;
     /*min-height:60px;*/
-    background:purple;
+    /*background:purple;*/
 }
 
 .foo {
@@ -94,7 +94,7 @@ footer {
     width:30%;
     /*min-height:60px;*/
     height:100%;
-    background:red;
+    /*background:red;*/
     vertical-align:top;
 }
 
@@ -110,7 +110,7 @@ footer {
 .foo p {
     margin:0;
     padding:0;
-    background:green;
+    /*background:green;*/
 }
 
 .clear {clear:both;}
