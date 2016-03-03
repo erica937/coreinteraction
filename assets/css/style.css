@@ -125,11 +125,14 @@ footer {
 /*  font-size: 3rem;*/
 /*  border: 1px solid #000;*/
 /*}*/
+
 .row{
     
 }
 
-.blurp{
+.container1{
     background-color: blue;
     margin-left: 20px;
+    width: 50px
+    height: 50px;
 }
